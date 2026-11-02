@@ -1,0 +1,35 @@
+{
+  "itemId" : "_nmP_MM78EfGec7tDkMzYgw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_kqYAwM74EfGec7tDkMzYgw",
+    "parameterList" : [ {
+      "id" : "_kqn4Yc74EfGec7tDkMzYgw",
+      "name" : "ENV_NAME"
+    }, {
+      "id" : "_kqn4Ys74EfGec7tDkMzYgw",
+      "name" : "BASE_FILE_PATH"
+    }, {
+      "id" : "_kqn4Y874EfGec7tDkMzYgw",
+      "name" : "DB_HOST"
+    }, {
+      "id" : "_kqn4ZM74EfGec7tDkMzYgw",
+      "name" : "DB_PORT"
+    }, {
+      "id" : "_kqn4Zc74EfGec7tDkMzYgw",
+      "name" : "DB_NAME"
+    }, {
+      "id" : "_kqn4Zs74EfGec7tDkMzYgw",
+      "name" : "DB_USER"
+    }, {
+      "id" : "_kqn4Z874EfGec7tDkMzYgw",
+      "name" : "DB_PASSWORD"
+    }, {
+      "id" : "_kqn4aM74EfGec7tDkMzYgw",
+      "name" : "PIPELINE_NAME"
+    }, {
+      "id" : "_kqn4ac74EfGec7tDkMzYgw",
+      "name" : "LOAD_SOURCE"
+    } ]
+  } ]
+}

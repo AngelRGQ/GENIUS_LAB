@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_kqn4YM74EfGec7tDkMzYgw" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="_kqn4Yc74EfGec7tDkMzYgw" comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev"/>
+  <contextParameter xmi:id="_kqn4Ys74EfGec7tDkMzYgw" comment="" name="BASE_FILE_PATH" prompt="BASE_FILE_PATH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/tmp/Genius_Lab/Fuente/"/>
+  <contextParameter xmi:id="_kqn4Y874EfGec7tDkMzYgw" comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="209.50.245.36"/>
+  <contextParameter xmi:id="_kqn4ZM74EfGec7tDkMzYgw" comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+  <contextParameter xmi:id="_kqn4Zc74EfGec7tDkMzYgw" comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DSADEV"/>
+  <contextParameter xmi:id="_kqn4Zs74EfGec7tDkMzYgw" comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev_genius"/>
+  <contextParameter xmi:id="_kqn4Z874EfGec7tDkMzYgw" comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="CambiarEsta#2026"/>
+  <contextParameter xmi:id="_kqn4aM74EfGec7tDkMzYgw" comment="" name="PIPELINE_NAME" prompt="PIPELINE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mp01_input_port_olist_gr1"/>
+  <contextParameter xmi:id="_kqn4ac74EfGec7tDkMzYgw" comment="" name="LOAD_SOURCE" prompt="LOAD_SOURCE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mp01_olist_gr1"/>
+</talendfile:ContextType>

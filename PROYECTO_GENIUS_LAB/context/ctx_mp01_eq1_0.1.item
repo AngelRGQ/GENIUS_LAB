@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_phxdcMybEfGPkriRE1yz7w" confirmationNeeded="false" hide="false" name="DEV">
+    <contextParameter xmi:id="_phxdccybEfGPkriRE1yz7w" comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DSADEV"/>
+    <contextParameter xmi:id="_phxdcsybEfGPkriRE1yz7w" comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_phxdc8ybEfGPkriRE1yz7w" comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:DEHGk+3BDAJu2jQBsMMa65oJlJ4HuVnjGmI0gHPgW4wGt4gqD/6FbAhYVkA="/>
+    <contextParameter xmi:id="_phxddMybEfGPkriRE1yz7w" comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="209.50.245.36"/>
+    <contextParameter xmi:id="_phxddsybEfGPkriRE1yz7w" comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev_genius"/>
+    <contextParameter xmi:id="_Pu1CwM1qEfGTM93vmq5t7g" comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev"/>
+    <contextParameter xmi:id="_Pu1Cwc1qEfGTM93vmq5t7g" comment="" name="BASE_FILE_PATH" prompt="BASE_FILE_PATH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/JC/QLIK TALENT/fuente/&quot;"/>
+    <contextParameter xmi:id="_Pu1Cws1qEfGTM93vmq5t7g" comment="" name="PIPELINE_NAME" prompt="PIPELINE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mp01_input_port_olist "/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_AM3esM70EfGTLbW5vSjQSA" confirmationNeeded="false" hide="false" name="PROD">
+    <contextParameter xmi:id="_AM3esc70EfGTLbW5vSjQSA" comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DSADEV"/>
+    <contextParameter xmi:id="_AM3ess70EfGTLbW5vSjQSA" comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_AM3es870EfGTLbW5vSjQSA" comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:jZTuk8oGwnewggDKoWBLSdGnjPtwsLzKvz0geVY7tTOyIxI+nxB5ylLd37w="/>
+    <contextParameter xmi:id="_AM3etM70EfGTLbW5vSjQSA" comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="209.50.245.36"/>
+    <contextParameter xmi:id="_AM3etc70EfGTLbW5vSjQSA" comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev_genius"/>
+    <contextParameter xmi:id="_AM3ets70EfGTLbW5vSjQSA" comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev"/>
+    <contextParameter xmi:id="_AM3et870EfGTLbW5vSjQSA" comment="" name="BASE_FILE_PATH" prompt="BASE_FILE_PATH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/JC/QLIK TALENT/fuente/&quot;"/>
+    <contextParameter xmi:id="_AM3euM70EfGTLbW5vSjQSA" comment="" name="PIPELINE_NAME" prompt="PIPELINE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mp01_input_port_olist "/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_AM3euc70EfGTLbW5vSjQSA" confirmationNeeded="false" hide="false" name="QA">
+    <contextParameter xmi:id="_AM3eus70EfGTLbW5vSjQSA" comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DSADEV"/>
+    <contextParameter xmi:id="_AM3eu870EfGTLbW5vSjQSA" comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_AM3evM70EfGTLbW5vSjQSA" comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:9mTUiOC1dm0tgbqG8rvPmS5ucR/+8pRBxwxS+Kiuze700E2fAEA9+vri9iE="/>
+    <contextParameter xmi:id="_AM3evc70EfGTLbW5vSjQSA" comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="209.50.245.36"/>
+    <contextParameter xmi:id="_AM3evs70EfGTLbW5vSjQSA" comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev_genius"/>
+    <contextParameter xmi:id="_AM3ev870EfGTLbW5vSjQSA" comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev"/>
+    <contextParameter xmi:id="_AM3ewM70EfGTLbW5vSjQSA" comment="" name="BASE_FILE_PATH" prompt="BASE_FILE_PATH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/JC/QLIK TALENT/fuente/"/>
+    <contextParameter xmi:id="_AM3ewc70EfGTLbW5vSjQSA" comment="" name="PIPELINE_NAME" prompt="PIPELINE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mp01_input_port_olist "/>
+  </talendfile:ContextType>
+</xmi:XMI>

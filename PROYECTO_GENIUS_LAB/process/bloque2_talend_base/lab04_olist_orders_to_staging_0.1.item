@@ -7,7 +7,7 @@
     <contextParameter comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="_RcseYMycEfGV5IzEsQPXuA" type="id_String" value="3306" internalId="_x-nlk8ypEfGV5IzEsQPXuA"/>
     <contextParameter comment="" name="FILE_OLIST_ORDERS" prompt="FILE_OLIST_ORDERS?" promptNeeded="false" repositoryContextId="_RcseYMycEfGV5IzEsQPXuA" type="id_String" value="C:/tmp/Genius_Lab/Fuente/" internalId="_x-nllMypEfGV5IzEsQPXuA"/>
     <contextParameter comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="_RcseYMycEfGV5IzEsQPXuA" type="id_String" value="209.50.245.36" internalId="_x-nllcypEfGV5IzEsQPXuA"/>
-    <contextParameter comment="" name="FILE_OLIST_CUSTOMERS" prompt="FILE_OLIST_CUSTOMERS?" promptNeeded="false" repositoryContextId="_RcseYMycEfGV5IzEsQPXuA" type="id_String" value="C:/tmp/Genius_Lab/Fuente/olist_customers_dataset.csv" internalId="_x-nllsypEfGV5IzEsQPXuA"/>
+    <contextParameter comment="" name="FILE_OLIST_CUSTOMERS" prompt="FILE_OLIST_CUSTOMERS?" promptNeeded="false" repositoryContextId="_RcseYMycEfGV5IzEsQPXuA" type="id_String" value="C:/tmp/Genius_Lab/Fuente/" internalId="_x-nllsypEfGV5IzEsQPXuA"/>
     <contextParameter comment="" name="LOAD_SOURCE_TAG" prompt="LOAD_SOURCE_TAG?" promptNeeded="false" repositoryContextId="_RcseYMycEfGV5IzEsQPXuA" type="id_String" value="lab04_olist_orders" internalId="_x-nll8ypEfGV5IzEsQPXuA"/>
   </context>
   <parameters>
@@ -110,16 +110,6 @@
   </parameters>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="240" posY="200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tFileInputDelimited" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="File/Input" show="false"/>
-    <elementParameter field="CHECK" name="START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="false" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tFileInputDelimited" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\8.0.1\studio\configuration\lib\java" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
@@ -248,7 +238,7 @@
       <column comment="" key="false" length="-1" name="order_status" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out1">
         <mapperTableEntries name="order_id" expression="row1.order_id " type="id_String"/>
@@ -365,6 +355,7 @@
     <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="SS_stg_olist_orders"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="out_1" name="tDBOutput_1">
       <column comment="" key="false" length="-1" name="order_id" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="customer_id" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
